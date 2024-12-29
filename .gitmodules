@@ -4,3 +4,6 @@
 [submodule "EmpowerHer-BackEnd"]
 	path = EmpowerHer-BackEnd
 	url = https://github.com/d-aggarwal/EmpowerHer-BackEnd.git
+[submodule "TimelinePlannerModel"]
+	path = TimelinePlannerModel
+	url = https://github.com/d-aggarwal/TimelinePlannerModel.git
