@@ -1,5 +1,5 @@
 
-```markdown
+
 # Project Overview 
 
 #### To make business opportunities accessible and achievable for rural women (specifically considering regional areas of Andhra Pradesh, Telangana) through an AI-powered platform that provides tools, guidance, and resources for entrepreneurial success.
@@ -213,5 +213,3 @@ EmpowerHer provides tools and resources for rural women to launch and manage bus
 - Puligilla Yashwanth 
 - Sriya Akepati
 ```
-
-This follows the typical markdown format for a `README.md` file.
