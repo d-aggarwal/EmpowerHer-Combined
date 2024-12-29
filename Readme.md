@@ -17,7 +17,7 @@
 
 
 #### 1. Clone the Combined Repo with Submodules using below mentioned command - 
-```
+```python
 git clone --recurse-submodules https://github.com/d-aggarwal/EmpowerHer-Combined.git
 
 ```
