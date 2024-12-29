@@ -154,3 +154,50 @@ d)  Run the Python script:
 
 ###  General Note:
   Environment Variables: Ensure all necessary variables are added to the .env files for all repositories.
+
+
+
+## Dependencies List
+
+### Backend Dependencies (Node.js)
+
+- **Node.js** 
+- **bcrypt**   
+- **cookie-parser**  
+- **cors**
+- **dotenv** 
+- **express**  
+- **jsonwebtoken**  
+- **mongodb** 
+- **mongoose** 
+- **mongoose-aggregate-paginate-v2** 
+- **multer** 
+- **concurrently**
+- **nodemon**  
+
+---
+
+### Frontend Dependencies
+
+- **Node.js** 
+- **@craco/craco**  
+- **axios** 
+- **body-parser**    
+- **cors** 
+- **dotenv** 
+- **express**   
+- **prop-types** 
+- **react** 
+- **react-dom**  
+- **react-helmet**  
+- **react-router-dom**  
+- **react-scripts**  
+- **tailwindcss**  
+
+---
+
+### AI Models Dependencies
+- **Flask** 
+- **flask-cors**  
+- **google-generativeai**  
+- **python-dotenv**`  
