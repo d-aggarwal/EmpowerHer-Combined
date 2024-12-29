@@ -22,6 +22,7 @@
 
 ```
 
+
 #### 2. EmpowerHerBackEnd Setup - Node.js
   Prerequisites:  Node.js installed
 
@@ -31,7 +32,9 @@ a)  Navigate to the EmpowerHerBackEnd subfolder using command:
   cd EmpowerHer-BackEnd
 ```
 
+
 b)  Install dependencies: npm install
+
 
 
 c)  Set up environment variables:
@@ -62,11 +65,13 @@ FLASK_API_URL_TIME= http://localhost:5004
 
 
 
+
 d)  Run the backend server:
 
 ```python
   npm run dev
 ```
+
 
 
 #### 3.  EmpowerHerFrontEnd Setup - React
@@ -104,11 +109,13 @@ d)  Run the frontend app:
 ```
 
 
+
 #### 4.  AI Models Repositories Setup - Python
 
   Each AI model repo contains:
   Python scripts.
   requirements.txt with dependencies.
+
 
   For each AI model repo:
 a)  Navigate to the AI model subfolder:
@@ -117,16 +124,21 @@ a)  Navigate to the AI model subfolder:
   cd ai-model-repo-1
 ```
 
+
 b)  Install dependencies:
 
 ```python
   pip install -r requirements.txt
 ```
+
+
 c)  Set up environment variables:
   Create a .env file in the root of each aimodel repo.
   Add the necessary environment variable:\\
 
   GEMINI_API_KEY='your-gemini-api-key'\\
+
+
 
 d)  Run the Python script:
   Execute the main Python file (marketingstrategy.py or similar) to ensure it runs.
