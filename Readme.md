@@ -16,94 +16,112 @@
 ## Setup Instructions
 
 
-#### 1. Clone the Combined Repo with Submodules using below mentioned command - 
+#### 1. Clone the Combined Repo with Submodules using below mentioned command: 
 ```python
 git clone --recurse-submodules https://github.com/d-aggarwal/EmpowerHer-Combined.git
 
 ```
 #### 2. EmpowerHerBackEnd Setup - Node.js
-Prerequisites:
+Prerequisites: 
 Node.js installed
 
-Steps:
-Navigate to the EmpowerHerBackEnd subfolder using command:
-cd backend-repo
+a) Navigate to the EmpowerHerBackEnd subfolder using command:
+```python
+cd EmpowerHer-BackEnd
+```
+b) Install dependencies: npm install
 
-Install dependencies:
-npm install
-
-Set up environment variables:
+c) Set up environment variables:
 Create a .env file in the root of EmpowerHer-BackEnd repo.
 Add the necessary environment variables:
 
 PORT=your-port-number
-DATABASE_URL=your-database-url
-API_KEY=your-api-key
-Run the backend server:
+MONGODB_URLL=your-mongodb-url
+CORS_ORIGIN=your-allowed-domains
+ACCESS_TOKEN_SECRET = your-acess-token-secret
+ACCESS_TOKEN_EXPIRY = your-acess-token-expiry
+REFRESH_TOKEN_SECRET = your-refresh-token-secret
+REFRESH_TOKEN_EXPIRY = your-refresh-token-expiry
+FLASK_API_URL_STRATEGY= http://localhost:5000
+FLASK_API_URL_BUSSI= http://localhost:5001
+FLASK_API_URL_NAME= http://localhost:5002
+FLASK_API_URL_TIME= http://localhost:5004
 
-bash
-Copy code
+
+d) Run the backend server:
+
+```python
 npm run dev
-Verify the backend:
+```
 
-Open your browser and visit: http://localhost:your-port-number to ensure the backend is running.
-3. Frontend Repo Setup - React
+
+#### 3. EmpowerHerFrontEnd Setup - React
 Prerequisites:
-Node.js installed (version 14 or higher).
-Ensure you have a .env file in the frontend repo with the required environment variables.
-Steps:
-Navigate to the frontend repo subfolder:
+Node.js installed
 
-bash
-Copy code
-cd frontend-repo
-Install dependencies:
 
-bash
-Copy code
+a) Navigate to the EmpowerHerFrontEnd subfolder:
+
+```python
+cd ..
+cd EmpowerHerFrontEnd
+```
+
+b) Install dependencies:
+
+```python
 npm install
-Set up environment variables:
+```
 
+c) Set up environment variables:
 Create a .env file in the root of your frontend repo.
 Add the necessary environment variables:
-env
-Copy code
-REACT_APP_API_BASE_URL=https://api.your-service.com
-Run the frontend app:
 
-bash
-Copy code
+```python
+REACT_APP_API_URL=http://localhost:${PORT mentioned in backend env file}
+```
+
+d) Run the frontend app:
+```python
 npm start
-Verify the frontend:
+```
 
-Open your browser and visit: http://localhost:3000 to ensure the frontend is running.
-4. AI Models Repositories Setup - Python
+
+#### 4. AI Models Repositories Setup - Python
+
 Each AI model repo contains:
-
 Python scripts.
 requirements.txt with dependencies.
+
 For each AI model repo:
+a) Navigate to the AI model subfolder:
 
-Navigate to the AI model subfolder:
-
-bash
-Copy code
+```python
 cd ai-model-repo-1
-Install dependencies:
+```
 
-bash
-Copy code
+b) Install dependencies:
+
+```python
 pip install -r requirements.txt
-Run the Python script:
+```
+c) Set up environment variables:
+Create a .env file in the root of each aimodel repo.
+Add the necessary environment variable:
 
-Execute the main Python file (main.py or similar) to ensure it runs.
-bash
-Copy code
-python main.py
+GEMINI_API_KEY='your-gemini-api-key'
+
+d) Run the Python script:
+Execute the main Python file (marketingstrategy.py or similar) to ensure it runs.
+
+```python
+python marketingstrategy.py
+```
+
 Verify the AI model execution:
 
-Run any provided test or validation scripts to ensure the model works as expected.
-General Notes:
-Environment Variables: Ensure all necessary variables are added to the .env files for backend and frontend.
-Cross-referencing APIs: Ensure the backend and frontend API URLs are properly linked.
-Testing: Test each component independently to ensure there are no conflicts.
+
+#### Check Proper running of website from FrontEnd
+
+### General Note:
+Environment Variables: Ensure all necessary variables are added to the .env files for all repositories.
