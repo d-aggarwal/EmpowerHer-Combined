@@ -204,12 +204,13 @@ EmpowerHer provides tools and resources for rural women to launch and manage bus
 
 ## Demo Video
 
+[Click here to watch the demo video](https://drive.google.com/file/d/1yijutbfelj6MEEkQzwMmA1xv-v5jp_0B/view?usp=drive_link)
+
 ---
 
 ## Team Members
-- Drishti Agarwal 
+- Drishti Aggarwal 
 - Roshini Nadella
 - Modukuri Sanjeev 
 - Puligilla Yashwanth 
 - Sriya Akepati
-```
