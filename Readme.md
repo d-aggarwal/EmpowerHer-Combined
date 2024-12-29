@@ -25,28 +25,41 @@
 #### 2. EmpowerHerBackEnd Setup - Node.js
   Prerequisites:  Node.js installed
 
+
 a)  Navigate to the EmpowerHerBackEnd subfolder using command:
 ```python
   cd EmpowerHer-BackEnd
 ```
+
 b)  Install dependencies: npm install
+
 
 c)  Set up environment variables:
   Create a .env file in the root of EmpowerHer-BackEnd repo.
   Add the necessary environment variables:
 
-PORT=your-port-number \\
-MONGODB_URLL=your-mongodb-url \\
-CORS_ORIGIN=your-allowed-domains \\
-ACCESS_TOKEN_SECRET = your-acess-token-secret\\
+PORT=your-port-number 
 
-ACCESS_TOKEN_EXPIRY = your-acess-token-expiry\\
-REFRESH_TOKEN_SECRET = your-refresh-token-secre\\t
-REFRESH_TOKEN_EXPIRY = your-refresh-token-expiry\\
-FLASK_API_URL_STRATEGY= http://localhost:5000\\
-FLASK_API_URL_BUSSI= http://localhost:5001\\
-FLASK_API_URL_NAME= http://localhost:5002\\
-FLASK_API_URL_TIME= http://localhost:5004\\
+MONGODB_URLL=your-mongodb-url 
+
+CORS_ORIGIN=your-allowed-domains 
+
+ACCESS_TOKEN_SECRET = your-acess-token-secret
+
+ACCESS_TOKEN_EXPIRY = your-acess-token-expiry
+
+REFRESH_TOKEN_SECRET = your-refresh-token-secret
+
+REFRESH_TOKEN_EXPIRY = your-refresh-token-expiry
+
+FLASK_API_URL_STRATEGY= http://localhost:5000
+
+FLASK_API_URL_BUSSI= http://localhost:5001
+
+FLASK_API_URL_NAME= http://localhost:5002
+
+FLASK_API_URL_TIME= http://localhost:5004
+
 
 
 d)  Run the backend server:
@@ -61,17 +74,20 @@ d)  Run the backend server:
   Node.js installed
 
 
+
 a)  Navigate to the EmpowerHerFrontEnd subfolder:
 
 ```python
   cd EmpowerHerFrontEnd
 ```
 
+
 b)  Install dependencies:
 
 ```python
   npm install
 ```
+
 
 c)  Set up environment variables:
   Create a .env file in the root of your frontend repo.
@@ -80,6 +96,7 @@ c)  Set up environment variables:
 ```python
   REACT_APP_API_URL=http://localhost:${PORT mentioned in backend env file}
 ```
+
 
 d)  Run the frontend app:
 ```python
