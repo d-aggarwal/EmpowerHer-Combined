@@ -13,3 +13,6 @@
 [submodule "BusinessPlanModel"]
 	path = BusinessPlanModel
 	url = https://github.com/d-aggarwal/BusinessPlanModel.git
+[submodule "MarketingStrategyModel"]
+	path = MarketingStrategyModel
+	url = https://github.com/d-aggarwal/MarketingStrategyModel.git
