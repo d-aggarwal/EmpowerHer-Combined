@@ -1,0 +1,3 @@
+[submodule "EmpowerHer-FrontEnd"]
+	path = EmpowerHer-FrontEnd
+	url = https://github.com/d-aggarwal/EmpowerHer-FrontEnd.git
