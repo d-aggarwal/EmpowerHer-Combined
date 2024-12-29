@@ -1,3 +1,6 @@
 [submodule "EmpowerHer-FrontEnd"]
 	path = EmpowerHer-FrontEnd
 	url = https://github.com/d-aggarwal/EmpowerHer-FrontEnd.git
+[submodule "EmpowerHer-BackEnd"]
+	path = EmpowerHer-BackEnd
+	url = https://github.com/d-aggarwal/EmpowerHer-BackEnd.git
