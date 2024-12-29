@@ -113,7 +113,7 @@ d)  Run the frontend app:
 ### 4.  AI Models Repositories Setup - Python
 
   Each AI model repo contains:
-  Python scripts.
+  Python scripts, 
   requirements.txt with dependencies.
 
 
@@ -134,9 +134,9 @@ b)  Install dependencies:
 
 c)  Set up environment variables:
   Create a .env file in the root of each aimodel repo.
-  Add the necessary environment variable:\\
+  Add the necessary environment variable:
 
-  GEMINI_API_KEY='your-gemini-api-key'\\
+  GEMINI_API_KEY='your-gemini-api-key'
 
 
 
