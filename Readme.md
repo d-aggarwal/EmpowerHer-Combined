@@ -16,14 +16,14 @@
 ## Setup Instructions
 
 
-#### 1.  Clone the Combined Repo with Submodules using below mentioned command: 
+### 1.  Clone the Combined Repo with Submodules using below mentioned command: 
 ```python
   git clone --recurse-submodules https://github.com/d-aggarwal/EmpowerHer-Combined.git
 
 ```
 
 
-#### 2. EmpowerHerBackEnd Setup - Node.js
+### 2. EmpowerHerBackEnd Setup - Node.js
   Prerequisites:  Node.js installed
 
 
@@ -74,7 +74,7 @@ d)  Run the backend server:
 
 
 
-#### 3.  EmpowerHerFrontEnd Setup - React
+### 3.  EmpowerHerFrontEnd Setup - React
   Prerequisites:
   Node.js installed
 
@@ -110,7 +110,7 @@ d)  Run the frontend app:
 
 
 
-#### 4.  AI Models Repositories Setup - Python
+### 4.  AI Models Repositories Setup - Python
 
   Each AI model repo contains:
   Python scripts.
